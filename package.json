@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "github-action-lambda",
   "version": "1.0.0",
   "description": "",
@@ -19,3 +20,25 @@
     "@vercel/ncc": "^0.27.0"
   }
 }
+=======
+    "name": "github-action-lambda",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "lodash": "^4.17.20",
+      "typescript": "^4.1.3"
+    },
+    "devDependencies": {
+      "@types/aws-lambda": "^8.10.71",
+      "@types/lodash": "^4.14.168",
+      "@types/node": "^14.14.22",
+      "@vercel/ncc": "^0.27.0"
+    }
+  }
+>>>>>>> 696fc76b16c4697a00a2d658889c28532e9dd3fb
