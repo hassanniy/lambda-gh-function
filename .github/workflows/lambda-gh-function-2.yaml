@@ -3,7 +3,7 @@ name: Deploy
 on:
   push:
     branches:
-    - master
+    - staging
 
 jobs:
   deploy_lambda:
@@ -28,4 +28,4 @@ jobs:
         run: |
           npx ncc build index.ts
           zip -j deploy.zip ./dist/*
-          aws lambda update-function-code --function-name=lambda-gh-function-2 --zip-file=fileb://deploy.zip
+          aws lambda update-function-code --function-name=staging --zip-file=fileb://deploy.zip
